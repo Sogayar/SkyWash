@@ -6,7 +6,7 @@ import { Separator } from "../../components/ui/separator";
 import { Textarea } from "../../components/ui/textarea";
 
 export const Marcello = (): JSX.Element => {
-  // Services data
+  // Services data.
   const services = [
     {
       title: "Limpeza de Vidros e Fachadas",

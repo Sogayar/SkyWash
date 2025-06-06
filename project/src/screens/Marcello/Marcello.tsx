@@ -63,9 +63,13 @@ export const Marcello = (): JSX.Element => {
   ];
 
   return (
+    {/* Alteração 1 
     <div className="bg-[#3f5e6f] flex flex-row justify-center w-full">
       <div className="bg-[#3f5e6f] overflow-hidden w-[393px] relative">
-        {/* Header Section */}
+      */}
+    <div className="bg-[#3f5e6f] flex flex-row justify-center w-full">
+      <div className="bg-[#3f5e6f] overflow-hidden w-full max-w-[393px] mx-auto relative">
+        {/* Header */}
         <header className="relative w-full">
           <div className="w-[393px] h-24 bg-[#021b36]">
             <div className="absolute top-[67px] left-[124px] font-['Montserrat',Helvetica] text-2xl">

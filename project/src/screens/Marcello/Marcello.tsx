@@ -63,12 +63,10 @@ export const Marcello = (): JSX.Element => {
   ];
 
   return (
-    {/* Alteração 1 
-    <div className="bg-[#3f5e6f] flex flex-row justify-center w-full">
-      <div className="bg-[#3f5e6f] overflow-hidden w-[393px] relative">
-      */}
+    {/* Inicio da alteração 1 */}
     <div className="bg-[#3f5e6f] flex flex-row justify-center w-full">
       <div className="bg-[#3f5e6f] overflow-hidden w-full max-w-[393px] mx-auto relative">
+        {/* Fim da alteração 1 */}
         {/* Header */}
         <header className="relative w-full">
           <div className="w-[393px] h-24 bg-[#021b36]">

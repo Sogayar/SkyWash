@@ -165,6 +165,10 @@ export const Marcello = (): JSX.Element => {
 
         {/* Services Section */}
         <section className="w-full px-4 py-10 bg-gradient-to-b from-[#5d737e] to-[#8e9599] text-white text-center">
+          <h2 className="text-2xl font-bold mb-2">SERVIÇOS PRESTADOS</h2>
+          <p className="text-sm mb-6">
+            Oferecemos soluções completas para manutenção e limpeza de edifícios utilizando a tecnologia de drones.
+          </p>
           {services.map((service, index) => (
             <div key={index} className="mb-8">
               <div className="w-10 h-10 bg-[#52a7d733] rounded-full flex items-center justify-center mx-auto mb-2">

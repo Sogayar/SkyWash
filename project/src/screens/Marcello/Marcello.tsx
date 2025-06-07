@@ -94,23 +94,43 @@ export const Marcello = (): JSX.Element => {
           </div>
 
           <Button className="w-full mt-6 bg-[#27d09a] rounded-lg font-bold text-white text-base">
-            Solicite um orçamento
+            Solicite uma visita
           </Button>
         </section>
 
         {/* About Section */}
         <section className="w-full px-4 py-10 text-white text-center">
-          <h2 className="text-xl font-bold tracking-wide mb-6">SOBRE A EMPRESA</h2>
+          <h2 className="text-xl font-bold tracking-wide mb-6">SOBRE A <span className="font-extrabold">Sky</span>
+              <span className="font-extrabold text-[#63c1f7]">Wash</span></h2>
           <div className="space-y-6 text-[17px]">
             <p>
-              A <span className="font-extrabold">Sky</span>
-              <span className="font-extrabold text-[#63c1f7]">Wash</span> é uma parceria da Presconsult Engenharia e
-              a Drone Wash, com comprovada experiência em limpeza com drones.
+              A Na interseção entre tecnologia de ponta e excelência operacional, nasce a SkyWash — 
+              fruto de uma parceria estratégica com a DroneWash, empresa consolidada em São Paulo, 
+              que compartilhou sua experiência técnica e visão inovadora para tornar possível essa 
+              transformação em solo brasiliense.
             </p>
             <p>
-              Buscamos com essa união trazer os benefícios e a segurança deste novo processo de limpeza para Brasília!
+              Criada pela Preconsult, referência em engenharia há mais de 15 anos no Distrito Federal, 
+              a SkyWash representa o encontro entre visão empreendedora, inovação local e 
+              compromisso com o futuro.
             </p>
-            <p>Entre em contato e conheça mais a respeito deste serviço. Estamos prontos para atendê-lo.</p>
+            <p>
+              Pioneira em Brasília, é a primeira empresa da capital a integrar drones ao processo de 
+              limpeza de fachadas, inaugurando uma nova era na manutenção predial: autônoma, precisa 
+              e de alta performance.
+            </p>
+            <p>
+              Unimos engenharia, inovação e cuidado com a estética urbana para oferecer soluções que 
+              eliminam os riscos das limpezas convencionais em altura, reduzem significativamente os 
+              custos logísticos e elevam o padrão de conservação dos edifícios. 
+            </p>
+            <p>
+              A SkyWash opera com drones de última geração e alto desempenho, transformando a 
+              forma como os prédios cuidam da sua imagem arquitetônica. Mais do que limpeza, 
+              entregamos uma nova experiência em serviços inteligentes de conservação predial — 
+              segura, eficiente, sustentável e tecnologicamente superior.
+            </p>
+              
           </div>
           <Button className="w-full mt-10 bg-[#27d09a] rounded-lg font-bold text-white text-base">
             Comece sua limpeza de fachada agora
